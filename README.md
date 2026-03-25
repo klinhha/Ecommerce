@@ -33,7 +33,7 @@ order by month;
 #### Result: 
 <img width="636" height="107" alt="Image" src="https://github.com/user-attachments/assets/fd068a9a-e940-4a96-9edb-e79d8ab86bd5" />
 
-### 2. Bounce Rate by Traffic Source
+### 2. Bounce Rate by Traffic Source (Bounce_rate = num_bounce/total_visit) (order by total_visit DESC)
 ``` sql
 SELECT trafficSource.source source
   , sum(totals.visits) total_visits
