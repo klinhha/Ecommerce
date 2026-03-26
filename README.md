@@ -18,7 +18,7 @@
 ## IV. Dataset
  Source: ga_sessions_@BigQueryDateShardedTable
 
-## V. Key Analyses & Resultsyses & Results
+## V. Key Analyses & Results
 ### 1. Calculate total visit, pageview, transaction for Jan, Feb and March 2017 (order by month)
 ``` sql
 SELECT format_date('%Y%m', parse_date('%Y%m%d', date)) month
